@@ -6,7 +6,8 @@ const FULL_HEART = '♥'
 const like = document.getElementsByClassName("like-glyph");
 
 const modal = document.getElementById('modal');
-modal.hidden = true
+//modal.classList.add('.hidden')
+
 
 for (let i = 0; i < like.length; i++) {
   like[i].addEventListener("click", function(){
